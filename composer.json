@@ -1,0 +1,23 @@
+{
+  "name": "sherrylo/laravel-admin-backup",
+  "description": " The dashboard of spatie/laravel-backup in z-song/laravel-admin",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "encore/laravel-admin": "^1.7",
+    "spatie/laravel-backup": "^6.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SherryLo\\Laravel\\Admin\\Backup\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SherryLo\\Laravel\\Admin\\Backup\\BackupServiceProvider"
+      ]
+    }
+  }
+}
